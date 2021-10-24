@@ -4,8 +4,8 @@ import time
 import numpy as np
 from spotipy.oauth2 import SpotifyClientCredentials 
 
-client_id = ""
-client_secret = ""
+client_id = "70dbb7803e6540d39b7a541d81a661f4"
+client_secret = "50ab78c49f5f44cabba3436c9ede69ce"
 client_credentials_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager) 
 
