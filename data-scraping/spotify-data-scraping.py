@@ -9,7 +9,7 @@ client_secret = ""
 client_credentials_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager) 
 
-name = ["Usher"]
+name = ["<Artist_Name>"]
 result = sp.search(name) 
 result['tracks']['items'][1]['artists']
 
@@ -141,4 +141,4 @@ print(len(final_df))
 
 final_df.head()
 
-final_df.to_csv("spotify_music_Usher.csv")
+final_df.to_csv("<FileName>.csv")
